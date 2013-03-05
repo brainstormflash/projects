@@ -14,6 +14,11 @@ test( "infinite regeneration 1 - Horizontal ***", function() {
     });
     deepEqual( game.getNext(), SHAPES.VERTICAL_LINE);
 });
+/**
+*
+* defines the test for the second generation
+*
+**/
 
 test( "infinite regeneration 2 - Horizontal different size", function() {
     var game = new LifeGameController();
